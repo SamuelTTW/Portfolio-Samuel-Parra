@@ -211,22 +211,22 @@ header #bmenu .material-symbols-outlined {
   transition-duration: 0.1s;
 }
 
-#main-container .work-section .bg .goproject:hover {
-  background-color: #36b37f;
-  color: white;
-}
-
 #main-container .bg .goproject:hover {
   background-color: #36b37f;
   color: white;
 }
 
-#main-container .work-section .bg .goproject:active {
-  background-color: #008552;
+#main-container .work-section .bg .goproject:hover {
+  background-color: #36b37f;
   color: white;
 }
 
 #main-container .bg .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+
+#main-container .work-section .bg .goproject:active {
   background-color: #008552;
   color: white;
 }
