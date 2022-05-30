@@ -197,9 +197,6 @@ header #bmenu .material-symbols-outlined {
   padding: 12px;
   border-radius: 4px;
   transition-duration: 0.1s;
-}
-
-#main-container .bg .goproject {
   margin-top: -30px;
   display: flex;
   justify-content: center;
@@ -323,20 +320,11 @@ header #bmenu .material-symbols-outlined {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
-#main-container .about-me .bg .goproject:hover {
-  background-color: #36b37f;
-  color: white;
-}
-
 #main-container .about-me .bg .goproject:active {
   background-color: #008552;
   color: white;
 }
 
-#main-container .work-section .bg .goproject:active {
-  background-color: #008552;
-  color: white;
-}
 #main-container .work-section .bg .goproject:active {
   background-color: #008552;
   color: white;
