@@ -70,6 +70,14 @@ header #bmenu .material-symbols-outlined {
   margin: 10px 45px 56px 45px;
 }
 
+footer p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -80px;
+  color: #42526e;
+}
+
 #main-container .introduction p {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -79,16 +87,25 @@ header #bmenu .material-symbols-outlined {
   margin: 0 30px 40px 30px;
 }
 
-#main-container .introduction .social-button .social-t {
+footer .social-button .social-t {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 25px;
   border: none;
   background-color: transparent;
 }
 
-footer .social-button .social-t {
+footer .social-button {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+#main-container .introduction .social-button .social-t {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 20px;
   border: none;
   background-color: transparent;
 }
@@ -194,6 +211,21 @@ footer .social-button .social-t .fa-brands {
   justify-content: center;
 }
 
+#main-container .bg .goproject {
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 #main-container .work-section .bg {
   margin-top: 20px;
   display: flex;
@@ -210,21 +242,6 @@ footer .social-button .social-t .fa-brands {
   margin: 0;
   border-radius: 4px;
   transition-duration: 0.1s;
-}
-
-#main-container .bg .goproject {
-  cursor: pointer;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: none;
-  background-color: #36b37f;
-  color: white;
-  padding: 12px;
-  border-radius: 4px;
-  transition-duration: 0.1s;
-  margin-top: -30px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
 }
 
 #main-container .bg .goproject:active {
@@ -249,6 +266,11 @@ footer .social-button .social-t .fa-brands {
   transition-duration: 0.1s;
 }
 
+#main-container .formulary .bg .goproject {
+  font-size: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
 #main-container .work-section .bg .goproject:hover {
   background-color: #36b37f;
   color: white;
@@ -270,14 +292,6 @@ footer .social-button .social-t .fa-brands {
   text-align: center;
   color: #172b4b;
   margin: 70px 45px 10px 45px;
-}
-
-footer p {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 30px;
-  margin-top: -80px;
-  color: #42526e;
 }
 
 #main-container .about-me p {
@@ -315,11 +329,6 @@ footer p {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-}
-
-#main-container .formulary .bg .goproject {
-  font-size: 20px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 #main-container .about-me .bg .goproject:hover {
@@ -430,13 +439,4 @@ footer p {
 
 #main-container .formulary form {
   text-align: center;
-}
-
-footer .social-button {
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 100px;
 }
