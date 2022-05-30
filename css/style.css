@@ -8,7 +8,7 @@ body {
 }
 
 /* HEADER-MOBILE */
-#main-container nav .mobile .header-mobile {
+header {
   padding: 0;
   margin: 1px;
   display: flex;
@@ -20,30 +20,34 @@ body {
   flex-direction: row;
 }
 
-#main-container header .introduction h1 {
-  font-size: 52px;
+#main-container .introduction h1 {
+  font-size: 40px;
   text-align: center;
   color: #172b4b;
-
+  font-weight: 700;
+  
   /* padding-top: 70px ; */
-  margin: 70px 45px 10px 45px;
+  margin: 70px 40px 10px 40px;
 }
 
-#main-container nav .mobile .header-mobile h1 {
-  font-size: 30px;
+ header a {
+   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 20px;
   margin-left: 35px;
-  margin-top: 30px;
+  margin-top: 10px;
   color: rgba(0, 0, 0, 0.774);
+  font-weight: 700;
 }
 
-#main-container nav .mobile .header-mobile #bmenu {
+header #bmenu {
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
-#main-container nav .mobile .header-mobile #bmenu .material-symbols-outlined {
-  margin: 10px 40px 0 0;
+header #bmenu .material-symbols-outlined {
+  margin: 20px 35px 0 0;
   font-size: 35px;
   color: black;
 }
@@ -53,53 +57,62 @@ body {
   background-image: url(../img/background-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  /* background-size: contain; */
+  
 }
 
-#main-container header .introduction {
+#main-container .introduction {
   display: inline-block;
 }
 
-#main-container header .introduction h2 {
-  font-size: 52px;
+#main-container  .introduction h2 {
+  font-size: 40px;
   text-align: center;
   color: #36b37e;
-  margin: 10px 45px 70px 45px;
+  font-weight: 700;
+  margin: 10px 45px 56px 45px;
 }
 
-#main-container header .introduction p {
-  font-size: 25px;
+#main-container .introduction p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 20px;
   text-align: center;
-  color: rgba(0 0 0 0.712);
-  margin: 0 30px 70px 30px;
+  color: #172b4d;
+  font-weight: 400;
+  margin: 0 30px 40px 30px;
 }
 
-#main-container header .introduction .social-button {
+#main-container .introduction .social-button {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  list-style: none;
+  padding: 0;
 }
 
-#main-container header .introduction .social-button .social-t {
+#main-container .introduction .social-button .social-t {
   cursor: pointer;
-  font-size: 40px;
+  font-size: 20px;
   border: none;
   background-color: transparent;
 }
 
-#main-container header .introduction .social-button .social-t .fa-brands {
+#main-container .introduction .social-button .social-t .fa-brands {
   color: rgb(80, 95, 121);
   margin: 0 7px 10px 7px;
 }
 
-#main-container header .down-button {
+#main-container .down-button {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
   margin-bottom: 50px;
+  list-style: none;
+  padding: 0;
 }
 
-#main-container header .down-button #down-b {
+#main-container .down-button #down-b {
   margin-top: -30px;
   width: 50px;
   height: 50px;
@@ -108,7 +121,7 @@ body {
   border-radius: 50%;
 }
 
-#main-container header .down-button #down-b a .fa-chevron-down {
+#main-container .down-button #down-b a .fa-chevron-down {
   margin-bottom: 5px;
   background-color: transparent;
   color: #172b4d;
