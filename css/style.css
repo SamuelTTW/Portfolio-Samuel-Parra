@@ -86,7 +86,6 @@ header #bmenu .material-symbols-outlined {
   margin-bottom: 0;
   list-style: none;
   padding: 0;
-  
 }
 
 #main-container .introduction .social-button .social-t {
@@ -94,7 +93,6 @@ header #bmenu .material-symbols-outlined {
   font-size: 20px;
   border: none;
   background-color: transparent;
-  
 }
 
 #main-container .introduction .social-button .social-t .fa-brands {
@@ -178,29 +176,16 @@ header #bmenu .material-symbols-outlined {
   padding: 8px 12px;
 }
 
-#main-container .work-section .bg {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-
 #main-container .bg {
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
 
-
-#main-container .work-section .bg .goproject {
-  cursor: pointer;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: none;
-  background-color: #36b37f;
-  color: white;
-  padding: 12px;
-  margin: 0;
-  border-radius: 4px;
-  transition-duration: 0.1s;
+#main-container .work-section .bg {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 #main-container .bg .goproject {
@@ -210,6 +195,18 @@ header #bmenu .material-symbols-outlined {
   background-color: #36b37f;
   color: white;
   padding: 12px;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+}
+
+#main-container .work-section .bg .goproject {
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  margin: 0;
   border-radius: 4px;
   transition-duration: 0.1s;
 }
