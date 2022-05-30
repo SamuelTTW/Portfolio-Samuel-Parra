@@ -25,13 +25,13 @@ header {
   text-align: center;
   color: #172b4b;
   font-weight: 700;
-  
+
   /* padding-top: 70px ; */
   margin: 70px 40px 10px 40px;
 }
 
- header a {
-   font-family: 'Inter', Arial, Helvetica, sans-serif;
+header a {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-size: 20px;
   margin-left: 35px;
@@ -57,11 +57,6 @@ header #bmenu .material-symbols-outlined {
   background-image: url(../img/background-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  /* background-size: contain; */
-  
-}
-
-#main-container .introduction {
   display: inline-block;
 }
 
@@ -86,7 +81,7 @@ header #bmenu .material-symbols-outlined {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   list-style: none;
   padding: 0;
 }
