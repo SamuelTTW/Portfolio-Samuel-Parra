@@ -188,21 +188,6 @@ header #bmenu .material-symbols-outlined {
   justify-content: center;
 }
 
-#main-container .bg .goproject {
-  cursor: pointer;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: none;
-  background-color: #36b37f;
-  color: white;
-  padding: 12px;
-  border-radius: 4px;
-  transition-duration: 0.1s;
-  margin-top: -30px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
 #main-container .work-section .bg .goproject {
   cursor: pointer;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -235,6 +220,21 @@ header #bmenu .material-symbols-outlined {
   padding: 12px;
   border-radius: 4px;
   transition-duration: 0.1s;
+}
+
+#main-container .bg .goproject {
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 #main-container .work-section .bg .goproject:hover {
@@ -302,6 +302,11 @@ header #bmenu .material-symbols-outlined {
   color: white;
 }
 
+#main-container .formulary .bg .goproject {
+  font-size: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
 #main-container .tech-card .about-me-icons {
   text-align: center;
   margin: 40px 0 0 0;
@@ -309,10 +314,6 @@ header #bmenu .material-symbols-outlined {
 
 #main-container .tech-card .about-me-icons img {
   margin: 40px 0 0 0;
-}
-#main-container .formulary .bg .goproject {
-  font-size: 20px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 #main-container .about-me .bg .goproject:active {
@@ -409,16 +410,6 @@ header #bmenu .material-symbols-outlined {
 
 #main-container .formulary form {
   text-align: center;
-}
-
-#main-container .bg .goproject {
-  cursor: pointer;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: none;
-  background-color: #36b37f;
-  color: white;
-  padding: 12px;
-  border-radius: 4px;
 }
 
 footer p {
