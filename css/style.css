@@ -23,6 +23,7 @@ header {
 #main-container .introduction h1 {
   font-size: 40px;
   text-align: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #172b4b;
   font-weight: 700;
 
@@ -61,6 +62,7 @@ header #bmenu .material-symbols-outlined {
 }
 
 #main-container .introduction h2 {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 40px;
   text-align: center;
   color: #36b37e;
