@@ -1,7 +1,7 @@
 
 body {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -86,6 +86,7 @@ header #bmenu .material-symbols-outlined {
   margin-bottom: 0;
   list-style: none;
   padding: 0;
+  
 }
 
 #main-container .introduction .social-button .social-t {
@@ -93,6 +94,7 @@ header #bmenu .material-symbols-outlined {
   font-size: 20px;
   border: none;
   background-color: transparent;
+  
 }
 
 #main-container .introduction .social-button .social-t .fa-brands {
@@ -123,4 +125,349 @@ header #bmenu .material-symbols-outlined {
   background-color: transparent;
   color: #172b4d;
   font-size: 20px;
+}
+
+#main-container .mwtext {
+  text-align: center;
+}
+
+#main-container .mwtext h2 {
+  margin: 0 70px 0 70px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4b;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  line-height: 52px;
+}
+
+#main-container .work-section {
+  display: grid;
+  justify-content: center;
+}
+
+#main-container .work-section .card {
+  background-color: white;
+  max-width: 331px;
+  height: 474px;
+  border-radius: 10px;
+  border: rgba(132, 128, 128, 0.5) solid 1px;
+  margin: 20px auto 20px auto;
+}
+
+#main-container .work-section .cards-title {
+  margin: 0 30px 10px 20px;
+  text-align: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #3a4a42;
+}
+
+#main-container .work-section .mini-card-list {
+  margin-top: 10px;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+#main-container .work-section .mini-card-list .list-name {
+  display: inline-block;
+  background: #ebf0ee;
+  color: #3a4a42;
+  font-family: 'Inter', Times, serif;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+#main-container .work-section .bg {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#main-container .bg {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#main-container .work-section .bg .goproject {
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+}
+
+#main-container .bg .goproject {
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+}
+
+#main-container .work-section .bg .goproject:hover {
+  background-color: #36b37f;
+  color: white;
+}
+
+#main-container .bg .goproject:hover {
+  background-color: #36b37f;
+  color: white;
+}
+
+#main-container .work-section .bg .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+
+#main-container .bg .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+
+#main-container .work-section .card .img {
+  /* background-image: url(../img/background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #ebf0ee;
+  max-width: 330px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#main-container .about-me h2 {
+  font-size: 52px;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #172b4b;
+  margin: 70px 45px 10px 45px;
+}
+
+#main-container .about-me p {
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+  color: #42526e;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  margin: 30px 30px 70px 30px;
+}
+
+#main-container .about-me .backaboutone {
+  display: flex;
+  justify-content: right;
+}
+
+#main-container .about-me .backaboutone img {
+  margin-top: 23px;
+  margin-bottom: -125px;
+  justify-content: left;
+}
+
+#main-container .about-me .backabouttwo {
+  display: flex;
+  justify-content: left;
+}
+
+#main-container .about-me .backabouttwo img {
+  margin-bottom: -20px;
+  margin-top: -50px;
+}
+#main-container .about-me .bg {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#main-container .bg .goproject{
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#main-container .about-me .bg .goproject {
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+}
+
+#main-container .about-me .bg .goproject:hover {
+  background-color: #36b37f;
+  color: white;
+}
+
+#main-container .tech-card .about-me-icons {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+#main-container .tech-card .about-me-icons img {
+  margin: 40px 0 0 0;
+}
+#main-container .formulary .bg .goproject {
+  font-size: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+#main-container .about-me .bg .goproject:hover {
+  background-color: #36b37f;
+  color: white;
+}
+
+#main-container .about-me .bg .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+
+#main-container .work-section .bg .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+#main-container .work-section .bg .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+
+#main-container .tech-card h3 {
+  text-align: center;
+  margin: 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #344563;
+  margin-bottom: 10px;
+}
+
+#main-container .tech-card {
+  list-style: none;
+  background-color: #ebf0ee;
+  max-width: 327px;
+  height: 352px;
+  border-radius: 8px;
+  border: rgba(128, 128, 128, 0.418) solid 1px;
+  margin: 60px auto 20px auto;
+}
+
+#main-container ul {
+  padding: 0;
+}
+
+#main-container .tech-card .mini-card-list-l {
+  margin-top: 10px;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+#main-container .tech-card .mini-card-list-l .list-name-i {
+  display: inline-block;
+  background: #fff;
+  color: #36b37e;
+  font-family: 'Inter', Times, serif;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+#main-container .formulary .bg .goproject {
+  font-size: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+#main-container .formulary h3 {
+  font-size: 40px;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #172b4b;
+  margin: 70px 45px 10px 45px;
+}
+
+#main-container .formulary form .field {
+  font-size: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: #d0d9d4 solid 1px;
+  margin: 15px;
+  padding: 10px;
+  width: 80%;
+  height: 48px;
+  border-radius: 4px;
+}
+
+#main-container .formulary form .field-t {
+  font-size: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: #60c095 solid 1px;
+  margin: 15px 0 40px 0;
+  padding: 10px;
+  width: 80%;
+  height: 114px;
+  border-radius: 4px;
+}
+
+#main-container .formulary .last-icon {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: right;
+  font-size: 20px; 
+}
+
+#main-container .formulary .last-icon img {
+  margin-top: -10px;
+  margin-bottom: -300px;
+}
+
+#main-container .formulary form {
+  text-align: center;
+}
+
+#main-container .bg .goproject {
+    cursor: pointer;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: #36b37f;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+footer p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -80px;
+  color: #42526e;
+}
+
+footer .social-button .social-t {
+  cursor: pointer;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+}
+
+footer .social-button {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+footer .social-button .social-t .fa-brands {
+  color: rgb(80 95 121);
+  margin: 0 5px 10px 5px;
 }
