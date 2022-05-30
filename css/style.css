@@ -199,6 +199,13 @@ header #bmenu .material-symbols-outlined {
   transition-duration: 0.1s;
 }
 
+#main-container .bg .goproject {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 #main-container .work-section .bg .goproject {
   cursor: pointer;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -216,13 +223,13 @@ header #bmenu .material-symbols-outlined {
   color: white;
 }
 
-#main-container .work-section .bg .goproject:hover {
-  background-color: #36b37f;
+#main-container .bg .goproject:active {
+  background-color: #008552;
   color: white;
 }
 
-#main-container .bg .goproject:active {
-  background-color: #008552;
+#main-container .work-section .bg .goproject:hover {
+  background-color: #36b37f;
   color: white;
 }
 
@@ -280,12 +287,6 @@ header #bmenu .material-symbols-outlined {
 }
 
 #main-container .about-me .bg {
-  margin-top: -30px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-#main-container .bg .goproject {
   margin-top: -30px;
   display: flex;
   justify-content: center;
