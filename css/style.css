@@ -26,8 +26,6 @@ header {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #172b4b;
   font-weight: 700;
-
-  /* padding-top: 70px ; */
   margin: 70px 40px 10px 40px;
 }
 
@@ -57,8 +55,10 @@ header #bmenu .material-symbols-outlined {
 #main-container .introduction {
   background-image: url(../img/background-mobile.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  min-height: 100%;
   display: inline-block;
+  padding-top: 50px;
 }
 
 #main-container .introduction h2 {
@@ -154,11 +154,11 @@ footer .social-button .social-t .fa-brands {
   font-size: 20px;
 }
 
-#main-container .mwtext {
+#main-container .my-recent-work {
   text-align: center;
 }
 
-#main-container .mwtext h2 {
+#main-container .my-recent-work h2 {
   margin: 0 70px 0 70px;
   font-size: 40px;
   font-weight: 700;
@@ -173,12 +173,14 @@ footer .social-button .social-t .fa-brands {
 }
 
 #main-container .work-section .card {
+  display: inline;
   background-color: white;
   max-width: 331px;
   height: 474px;
   border-radius: 10px;
   border: rgba(132, 128, 128, 0.5) solid 1px;
   margin: 20px auto 20px auto;
+  justify-content: center;
 }
 
 #main-container .work-section .cards-title {
@@ -254,6 +256,28 @@ footer .social-button .social-t .fa-brands {
   color: white;
 }
 
+#main-container .formulary .bg .goproject {
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+}
+
+#main-container .formulary .bg .goproject:hover {
+  background-color: #36b37f;
+  color: white;
+}
+
+#main-container .formulary .bg .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+
 #main-container .about-me .bg .goproject {
   font-size: 20px;
   cursor: pointer;
@@ -277,9 +301,6 @@ footer .social-button .social-t .fa-brands {
 }
 
 #main-container .work-section .card .img {
-  /* background-image: url(../img/background-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: cover; */
   background-color: #ebf0ee;
   max-width: 330px;
   height: 300px;
@@ -440,3 +461,5 @@ footer .social-button .social-t .fa-brands {
 #main-container .formulary form {
   text-align: center;
 }
+
+
