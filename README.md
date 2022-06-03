@@ -9,6 +9,10 @@ Hi, my name is Samuel Felipe Perez Parra. I'm 19 years old, and I'm currently st
  <li>Stylized code with Stylelint</li>
 </ul>
 
+ 
+# Live Demo https://samuelttw.github.io/Portfolio-Samuel-Parra-2/
+
+
 ## Getting Started!!!
 This is a simple project, it currently consists of 2 presentation sections on a web page, the steps to install it and see how it works are as follows:
 
