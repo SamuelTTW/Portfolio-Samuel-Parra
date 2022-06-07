@@ -241,6 +241,16 @@ footer .formulary form .goproject {
   margin: auto;
 }
 
+footer .formulary form .goproject:hover {
+  background-color: #36b37f;
+  color: white;
+}
+
+footer .formulary form .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+
 #main-container .bg .goproject {
   cursor: pointer;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -306,16 +316,6 @@ footer .formulary form .goproject {
   transition-duration: 0.1s;
 }
 
-footer .formulary form .goproject:hover {
-  background-color: #36b37f;
-  color: white;
-}
-
-footer .formulary form .goproject:active {
-  background-color: #008552;
-  color: white;
-}
-
 #main-container .work-section .bg .goproject:hover {
   background-color: #36b37f;
   color: white;
@@ -326,14 +326,6 @@ footer .formulary form .goproject:active {
   min-width: 100%;
   height: 300px;
   border-radius: 10px;
-}
-
-#main-container .about-me h2 {
-  font-size: 52px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: #172b4b;
-  margin: 70px 45px 10px 45px;
 }
 
 #main-container .about-me p {
@@ -348,6 +340,11 @@ footer .formulary form .goproject:active {
 #main-container .about-me .backaboutone {
   display: flex;
   justify-content: right;
+}
+
+footer .formulary .last-icon img {
+  margin-top: -10px;
+  margin-bottom: -300px;
 }
 
 #main-container .about-me .backaboutone img {
@@ -397,6 +394,22 @@ footer .formulary form .goproject:active {
   color: white;
 }
 
+#main-container .about-me h2 {
+  font-size: 52px;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #172b4b;
+  margin: 70px 45px 10px 45px;
+}
+
+footer .formulary h3 {
+  font-size: 40px;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #172b4b;
+  margin: 70px 45px 10px 45px;
+}
+
 #main-container .tech-card h3 {
   text-align: center;
   margin: 0;
@@ -435,14 +448,6 @@ footer .formulary form .goproject:active {
   list-style: none;
 }
 
-footer .formulary h3 {
-  font-size: 40px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: #172b4b;
-  margin: 70px 45px 10px 45px;
-}
-
 footer .formulary form .field {
   font-size: 20px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -453,7 +458,7 @@ footer .formulary form .field {
   height: 48px;
   border-radius: 4px;
 }
- 
+
 footer .formulary form .field-t {
   font-size: 20px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -470,11 +475,6 @@ footer .formulary .last-icon {
   display: flex;
   justify-content: right;
   font-size: 20px;
-}
-
-footer .formulary .last-icon img {
-  margin-top: -10px;
-  margin-bottom: -300px;
 }
 
 footer .formulary form {
