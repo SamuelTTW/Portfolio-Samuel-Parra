@@ -227,6 +227,30 @@ footer .social-button .social-t .fa-brands {
   justify-content: center;
 }
 
+footer .formulary form .goproject {
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+  display: flex;
+  margin: auto;
+}
+
+footer .formulary form .goproject:hover {
+  background-color: #36b37f;
+  color: white;
+}
+
+footer .formulary form .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+
 #main-container .bg .goproject {
   cursor: pointer;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -270,18 +294,6 @@ footer .social-button .social-t .fa-brands {
   color: white;
 }
 
-#main-container .formulary .bg .goproject {
-  font-size: 20px;
-  cursor: pointer;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: none;
-  background-color: #36b37f;
-  color: white;
-  padding: 12px;
-  border-radius: 4px;
-  transition-duration: 0.1s;
-}
-
 #main-container .about-me ul {
   display: flex;
   justify-content: center;
@@ -304,16 +316,6 @@ footer .social-button .social-t .fa-brands {
   transition-duration: 0.1s;
 }
 
-#main-container .formulary .bg .goproject:hover {
-  background-color: #36b37f;
-  color: white;
-}
-
-#main-container .formulary .bg .goproject:active {
-  background-color: #008552;
-  color: white;
-}
-
 #main-container .work-section .bg .goproject:hover {
   background-color: #36b37f;
   color: white;
@@ -324,14 +326,6 @@ footer .social-button .social-t .fa-brands {
   min-width: 100%;
   height: 300px;
   border-radius: 10px;
-}
-
-#main-container .about-me h2 {
-  font-size: 52px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: #172b4b;
-  margin: 70px 45px 10px 45px;
 }
 
 #main-container .about-me p {
@@ -346,6 +340,11 @@ footer .social-button .social-t .fa-brands {
 #main-container .about-me .backaboutone {
   display: flex;
   justify-content: right;
+}
+
+footer .formulary .last-icon img {
+  margin-top: -10px;
+  margin-bottom: -300px;
 }
 
 #main-container .about-me .backaboutone img {
@@ -378,11 +377,11 @@ footer .social-button .social-t .fa-brands {
 
 #main-container .tech-card .about-me-icons {
   text-align: center;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 #main-container .tech-card .about-me-icons img {
-  margin: 40px 0 0 0;
+  margin: 0;
 }
 
 #main-container .about-me .bg .goproject:active {
@@ -395,6 +394,22 @@ footer .social-button .social-t .fa-brands {
   color: white;
 }
 
+#main-container .about-me h2 {
+  font-size: 52px;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #172b4b;
+  margin: 70px 45px 10px 45px;
+}
+
+footer .formulary h3 {
+  font-size: 40px;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #172b4b;
+  margin: 70px 45px 10px 45px;
+}
+
 #main-container .tech-card h3 {
   text-align: center;
   margin: 0;
@@ -402,7 +417,7 @@ footer .social-button .social-t .fa-brands {
   font-weight: 600;
   font-size: 24px;
   color: #344563;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #main-container .tech-card {
@@ -433,15 +448,7 @@ footer .social-button .social-t .fa-brands {
   list-style: none;
 }
 
-#main-container .formulary h3 {
-  font-size: 40px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: #172b4b;
-  margin: 70px 45px 10px 45px;
-}
-
-#main-container .formulary form .field {
+footer .formulary form .field {
   font-size: 20px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   border: #d0d9d4 solid 1px;
@@ -452,7 +459,7 @@ footer .social-button .social-t .fa-brands {
   border-radius: 4px;
 }
 
-#main-container .formulary form .field-t {
+footer .formulary form .field-t {
   font-size: 20px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   border: #60c095 solid 1px;
@@ -463,18 +470,14 @@ footer .social-button .social-t .fa-brands {
   border-radius: 4px;
 }
 
-#main-container .formulary .last-icon {
+footer .formulary .last-icon {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: right;
   font-size: 20px;
 }
 
-#main-container .formulary .last-icon img {
-  margin-top: -10px;
-  margin-bottom: -300px;
-}
-
-#main-container .formulary form {
+footer .formulary form {
   text-align: center;
+  justify-content: center;
 }
