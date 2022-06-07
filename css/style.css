@@ -270,7 +270,7 @@ footer .social-button .social-t .fa-brands {
   color: white;
 }
 
-#main-container .formulary .bg .goproject {
+footer .formulary form .goproject {
   font-size: 20px;
   cursor: pointer;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -280,6 +280,8 @@ footer .social-button .social-t .fa-brands {
   padding: 12px;
   border-radius: 4px;
   transition-duration: 0.1s;
+  display: flex;
+  margin: auto;
 }
 
 #main-container .about-me ul {
@@ -304,12 +306,12 @@ footer .social-button .social-t .fa-brands {
   transition-duration: 0.1s;
 }
 
-#main-container .formulary .bg .goproject:hover {
+footer .formulary form .goproject:hover {
   background-color: #36b37f;
   color: white;
 }
 
-#main-container .formulary .bg .goproject:active {
+footer .formulary form .goproject:active {
   background-color: #008552;
   color: white;
 }
@@ -378,11 +380,11 @@ footer .social-button .social-t .fa-brands {
 
 #main-container .tech-card .about-me-icons {
   text-align: center;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 #main-container .tech-card .about-me-icons img {
-  margin: 40px 0 0 0;
+  margin: 0;
 }
 
 #main-container .about-me .bg .goproject:active {
@@ -402,7 +404,7 @@ footer .social-button .social-t .fa-brands {
   font-weight: 600;
   font-size: 24px;
   color: #344563;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #main-container .tech-card {
@@ -433,48 +435,3 @@ footer .social-button .social-t .fa-brands {
   list-style: none;
 }
 
-#main-container .formulary h3 {
-  font-size: 40px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: #172b4b;
-  margin: 70px 45px 10px 45px;
-}
-
-#main-container .formulary form .field {
-  font-size: 20px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: #d0d9d4 solid 1px;
-  margin: 15px;
-  padding: 10px;
-  width: 80%;
-  height: 48px;
-  border-radius: 4px;
-}
-
-#main-container .formulary form .field-t {
-  font-size: 20px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: #60c095 solid 1px;
-  margin: 15px 0 40px 0;
-  padding: 10px;
-  width: 80%;
-  height: 114px;
-  border-radius: 4px;
-}
-
-#main-container .formulary .last-icon {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: right;
-  font-size: 20px;
-}
-
-#main-container .formulary .last-icon img {
-  margin-top: -10px;
-  margin-bottom: -300px;
-}
-
-#main-container .formulary form {
-  text-align: center;
-}
