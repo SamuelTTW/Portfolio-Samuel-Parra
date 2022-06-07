@@ -227,6 +227,30 @@ footer .social-button .social-t .fa-brands {
   justify-content: center;
 }
 
+footer .formulary form .goproject {
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+  display: flex;
+  margin: auto;
+}
+
+footer .formulary form .goproject:hover {
+  background-color: #36b37f;
+  color: white;
+}
+
+footer .formulary form .goproject:active {
+  background-color: #008552;
+  color: white;
+}
+
 #main-container .bg .goproject {
   cursor: pointer;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -240,6 +264,16 @@ footer .social-button .social-t .fa-brands {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+#main-container .bg .goproject:hover {
+  background-color: #36b37f;
+  color: white;
+}
+
+#main-container .bg .goproject:active {
+  background-color: #008552;
+  color: white;
 }
 
 #main-container .work-section .bg {
@@ -258,30 +292,6 @@ footer .social-button .social-t .fa-brands {
   margin: 0 0 30px 0;
   border-radius: 4px;
   transition-duration: 0.1s;
-}
-
-#main-container .bg .goproject:active {
-  background-color: #008552;
-  color: white;
-}
-
-#main-container .bg .goproject:hover {
-  background-color: #36b37f;
-  color: white;
-}
-
-footer .formulary form .goproject {
-  font-size: 20px;
-  cursor: pointer;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: none;
-  background-color: #36b37f;
-  color: white;
-  padding: 12px;
-  border-radius: 4px;
-  transition-duration: 0.1s;
-  display: flex;
-  margin: auto;
 }
 
 #main-container .about-me ul {
@@ -304,16 +314,6 @@ footer .formulary form .goproject {
   margin: 5px 0 0 0;
   border-radius: 4px;
   transition-duration: 0.1s;
-}
-
-footer .formulary form .goproject:hover {
-  background-color: #36b37f;
-  color: white;
-}
-
-footer .formulary form .goproject:active {
-  background-color: #008552;
-  color: white;
 }
 
 #main-container .work-section .bg .goproject:hover {
@@ -343,6 +343,11 @@ footer .formulary form .goproject:active {
   color: #42526e;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   margin: 30px 30px 70px 30px;
+}
+
+footer .formulary .last-icon img {
+  margin-top: -10px;
+  margin-bottom: -300px;
 }
 
 #main-container .about-me .backaboutone {
@@ -397,6 +402,14 @@ footer .formulary form .goproject:active {
   color: white;
 }
 
+footer .formulary h3 {
+  font-size: 40px;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #172b4b;
+  margin: 70px 45px 10px 45px;
+}
+
 #main-container .tech-card h3 {
   text-align: center;
   margin: 0;
@@ -435,14 +448,6 @@ footer .formulary form .goproject:active {
   list-style: none;
 }
 
-footer .formulary h3 {
-  font-size: 40px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: #172b4b;
-  margin: 70px 45px 10px 45px;
-}
-
 footer .formulary form .field {
   font-size: 20px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -453,7 +458,7 @@ footer .formulary form .field {
   height: 48px;
   border-radius: 4px;
 }
- 
+
 footer .formulary form .field-t {
   font-size: 20px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -470,11 +475,6 @@ footer .formulary .last-icon {
   display: flex;
   justify-content: right;
   font-size: 20px;
-}
-
-footer .formulary .last-icon img {
-  margin-top: -10px;
-  margin-bottom: -300px;
 }
 
 footer .formulary form {
