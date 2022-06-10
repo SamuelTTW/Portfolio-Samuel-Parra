@@ -140,19 +140,6 @@ footer .social-button .social-t .fa-brands {
   margin: 0 7px 10px 7px;
 }
 
-
-footer .social-button .social-t .fa-brands {
-  color: rgb(80 95 121);
-  margin: 0 5px 10px 5px;
-  transition: all 0.3s ease;
-}
-
-footer .social-button .social-t .fa-brands:hover {
-  color: rgb(80 95 121);
-  margin: 0 5px 10px 5px;
-  transform: scale(2) rotate(360deg);
-}
-
 #main-container .introduction .social-button .social-t .fa-brands {
   color: rgb(80, 95, 121);
   margin: 0 7px 10px 7px;
