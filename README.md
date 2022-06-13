@@ -1,8 +1,6 @@
 # Portfolio Samuel Parra
 Hi, my name is Samuel Felipe Perez Parra. I'm 19 years old, and I'm currently studying hard doing the microverse bootcamp to become a useful future member of your project. For now, you can see the portfolio that I'll be updating with due learning time. Which does it with the technologies: HTML/CSS also counting, with a stylized code due to stylint & Webhint linters
 
-##Live Demo: https://samuelttw.github.io/Portfolio-Samuel-Parra-2/
-
 ## Built With
 <ul>
  <li>HTML</li>
