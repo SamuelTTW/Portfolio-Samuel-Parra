@@ -16,12 +16,15 @@ header {
   padding: 0;
   margin: 1px;
   display: flex;
-  width: 100;
-  height: 1fr;
+  width: 100%;
   background-color: rgb(255, 255, 255);
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+
+header .h-desktop {
+  display: none;
 }
 
 #main-container {
@@ -175,12 +178,12 @@ footer .social-button .social-t .fa-brands {
   line-height: 52px;
 }
 
+/* MOBILE VERSION */
 #main-container .work-section {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
-  align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 #main-container .work-section .card {
@@ -189,12 +192,14 @@ footer .social-button .social-t .fa-brands {
   flex-direction: column;
   background-color: white;
   width: 331px;
-  height: 474px;
+  min-height: 473px;
+  max-height: 473px;
   border-radius: 10px;
   border: rgba(132, 128, 128, 0.5) solid 1px;
-  margin: 20px 10px 20px 10px;
+  margin: 20px auto;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 #main-container .work-section .cards-title {
@@ -219,6 +224,7 @@ footer .social-button .social-t .fa-brands {
   font-family: 'Inter', Times, serif;
   border-radius: 4px;
   padding: 8px 12px;
+  margin-top: 5px;
 }
 
 #main-container .bg {
@@ -347,10 +353,25 @@ footer .formulary .last-icon img {
   margin-bottom: -300px;
 }
 
+footer .one {
+  display: none;
+}
+
+footer .three {
+  display: none;
+}
+
+#main-container .about-me .backaboutone-desktop {
+  display: none;
+}
+
+#main-container .about-me .backabouttwo-desktop {
+  display: none;
+}
+
 #main-container .about-me .backaboutone img {
   margin-top: 23px;
   margin-bottom: -125px;
-  justify-content: left;
 }
 
 #main-container .about-me .backabouttwo {
@@ -395,8 +416,8 @@ footer .formulary .last-icon img {
 }
 
 #main-container .about-me h2 {
-  font-size: 52px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   text-align: center;
   color: #172b4b;
   margin: 70px 45px 10px 45px;
@@ -404,7 +425,7 @@ footer .formulary .last-icon img {
 
 footer .formulary h3 {
   font-size: 40px;
-  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   text-align: center;
   color: #172b4b;
   margin: 70px 45px 10px 45px;
@@ -468,6 +489,7 @@ footer .formulary form .field-t {
   width: 80%;
   height: 114px;
   border-radius: 4px;
+  resize: nose;
 }
 
 footer .formulary .last-icon {
@@ -479,5 +501,226 @@ footer .formulary .last-icon {
 
 footer .formulary form {
   text-align: center;
-  justify-content: center;
+}
+
+/* TABLET-VERSION */
+@media screen and (min-width: 650px) {
+  #main-container .work-section {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #main-container .introduction h1 {
+    color: #172b4b;
+    margin: 70px 100px 10px 100px;
+    padding: 0 100px;
+    font-size: 48px;
+  }
+}
+
+/* PC-VERSION */
+@media screen and (min-width: 1030px) {
+  header {
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: rgb(52 69 99);
+  }
+
+  #main-container .introduction h1 {
+    color: #172b4b;
+    margin: 70px 250px 10px 250px;
+    padding: 0 100px;
+    font-size: 48px;
+  }
+
+  #main-container .introduction h2 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #36b37e;
+    font-weight: 700;
+    margin: 10px 45px 56px 45px;
+  }
+
+  footer p {
+    display: none;
+  }
+
+  #main-container .introduction p {
+    color: #172b4d;
+    margin: 0 250px 40px 250px;
+    padding: 0 100px;
+  }
+
+  header a {
+    display: none;
+  }
+
+  header #bmenu {
+    display: none;
+  }
+
+  header .h-desktop {
+    display: flex;
+  }
+
+  header .h-desktop ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    color: rgb(52 69 99);
+  }
+
+  header .h-desktop ul li {
+    margin: 20px;
+  }
+
+  header .h-desktop ul li a {
+    display: flex;
+    color: rgb(52 69 99);
+    margin: 0;
+    font-size: 20px;
+  }
+
+  #main-container .work-section {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+    margin: 0 auto 100px auto;
+  }
+
+  #main-container .introduction {
+    background-image: url(../img-desktop/background-desktop.svg);
+    padding-bottom: 200px;
+  }
+
+  #main-container .down-button {
+    margin-top: 100px;
+  }
+
+  footer .one img {
+    margin-top: -300px;
+  }
+
+  footer .formulary .last-icon img {
+    display: none;
+  }
+
+  #main-container .my-recent-work img {
+    display: none;
+  }
+
+  #main-container .about-me .backaboutone img {
+    display: none;
+  }
+
+  #main-container .about-me .backabouttwo img {
+    display: none;
+  }
+
+  #main-container .about-me .backaboutone-desktop {
+    display: flex;
+    justify-content: right;
+    margin-bottom: -350px;
+  }
+
+  #main-container .about-me .backabouttwo-desktop {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;
+    margin-top: -82px;
+  }
+
+  #main-container .about-me p {
+    font-size: 20px;
+    margin: 0 120px;
+    padding: 0 120px;
+  }
+
+  #main-container .about-me h2 {
+    margin-top: 200px;
+  }
+
+  footer .formulary h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin: 125px 65px 0 130px;
+    padding: 0;
+    line-height: 60px;
+  }
+
+  footer .formulary {
+    display: flex;
+  }
+
+  footer .form1 {
+    width: 100%;
+    margin: 60px 0 0 0;
+  }
+
+  footer .formulary form .field {
+    margin-left: 0;
+  }
+
+  footer .formulary form .goproject {
+    text-align: left;
+    margin: 0;
+  }
+
+  footer .formulary form {
+    text-align: left;
+  }
+
+  footer .one {
+    display: flex;
+    justify-content: right;
+    margin-bottom: -350px;
+  }
+
+  footer .two {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer .three {
+    display: flex;
+    justify-content: left;
+  }
+
+  footer .three .left {
+    margin-top: 0;
+  }
+
+  footer .three .center {
+    margin-top: 60px;
+    margin-left: 135px;
+  }
+
+  #main-container .tech-card {
+    min-width: 369px;
+  }
+
+  footer .social-button {
+    border-top: 1px solid #dfe1e6;
+    margin: 20px 0 0 0;
+  }
+
+  footer .social-button ul {
+    margin-top: 30px;
+    border: none;
+  }
+
+  #main-container .work-section .card {
+    min-width: 370px;
+  }
+
+  #main-container .about-me .tech-desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+  }
 }
