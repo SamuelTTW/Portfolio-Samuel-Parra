@@ -9,6 +9,11 @@ body {
   font-size: 16px;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
+}
+
+.popup-show {
+  overflow: hidden;
 }
 
 /* HEADER-MOBILE */
@@ -94,6 +99,11 @@ header #bmenu .activeline3__bars-menu {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  padding: 20px 20px 0 0;
+}
+
+.xmenu img {
+  width: 30px;
 }
 
 .cross {
@@ -115,7 +125,7 @@ header #bmenu .activeline3__bars-menu {
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.9);
   transition: all 1s;
-  height: 755px;
+  height: 800px;
   width: 100%;
 }
 
@@ -137,6 +147,7 @@ header #bmenu .activeline3__bars-menu {
   color: #3a4a42;
   font-size: 32px;
   font-weight: 600;
+  padding-left: 15px;
 }
 
 /* INTRODUCCTION-SECTION */
@@ -624,6 +635,7 @@ footer .formulary form {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     color: rgb(52 69 99);
+    display: flex;
   }
 
   #main-container .introduction h1 {
