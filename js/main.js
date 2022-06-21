@@ -16,13 +16,13 @@ document.querySelector('.a0').addEventListener('click', () => {
   listBars.toggle('deploy');
 });
 
-document.querySelector('.a1').addEventListener("click", () => {
+document.querySelector('.a1').addEventListener('click', () => {
   lBars1.classList.toggle('activeline1__bars-menu');
   lBars2.classList.toggle('activeline2__bars-menu');
   lBars3.classList.toggle('activeline3__bars-menu');
   listBars.toggle('deploy');
 });
-document.querySelector('.a2').addEventListener("click", () => {
+document.querySelector('.a2').addEventListener('click', () => {
   lBars1.classList.toggle('activeline1__bars-menu');
   lBars2.classList.toggle('activeline2__bars-menu');
   lBars3.classList.toggle('activeline3__bars-menu');
