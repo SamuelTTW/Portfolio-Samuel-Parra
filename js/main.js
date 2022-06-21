@@ -1,4 +1,3 @@
-
 const listBars = document.querySelector('.list_bar-menu');
 const bMenu = document.querySelector('#bmenu');
 const xMenu = document.querySelector('.xmenu');
