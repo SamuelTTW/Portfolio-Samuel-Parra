@@ -52,7 +52,7 @@ header a {
 
 header #bmenu {
   background-color: transparent;
-  width: 37px;
+  width: 30px;
   height: auto;
   cursor: pointer;
   border: none;
@@ -64,10 +64,11 @@ header #bmenu span {
   display: block;
   width: 100%;
   height: 3px;
-  background: rgba(0, 0, 0, 0.775);
-  margin-top: 6px;
+  background: #000000ab;
+  margin-top: 4px;
   transition: all 0.3s ease;
   transform-origin: 0 100%;
+  border-radius: 20%;
 }
 
 header #bmenu .activeline1__bars-menu {
@@ -88,6 +89,26 @@ header #bmenu .activeline3__bars-menu {
   transition: all 15s;
 }
 
+.xmenu {
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cross {
+  display: flex;
+  justify-content: right;
+}
+
+.none {
+  display: none;
+}
+
+.display {
+  display: flex;
+}
+
 .deploy {
   display: flex;
   text-align: left;
@@ -102,6 +123,7 @@ header #bmenu .activeline3__bars-menu {
   list-style: none;
   text-decoration: none;
   padding: 0;
+  margin: 0;
 }
 
 .deploy ul li {
