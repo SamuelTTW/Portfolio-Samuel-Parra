@@ -66,8 +66,8 @@ header #bmenu span {
   height: 3px;
   background: rgba(0, 0, 0, 0.775);
   margin-top: 6px;
-  transition: all .3s ease;
-  transform-origin: 0px 100%;
+  transition: all 0.3s ease;
+  transform-origin: 0 100%;
 }
 
 header #bmenu .activeline1__bars-menu {
@@ -108,10 +108,9 @@ header #bmenu .activeline3__bars-menu {
   list-style: none;
   text-decoration: none;
   margin: 30px 0 0 10px;
-  
 }
 
-.deploy ul a{
+.deploy ul a {
   text-decoration: none;
   color: #3a4a42;
   font-size: 32px;
@@ -652,7 +651,7 @@ footer .formulary form {
 
   header .h-desktop ul li {
     margin: 20px;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
   }
 
   header .h-desktop ul li a {
@@ -800,6 +799,7 @@ footer .formulary form {
     display: grid;
     grid-template-columns: repeat(3, 380px);
   }
+
   .list_bar-menu {
     display: none;
   }
