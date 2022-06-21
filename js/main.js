@@ -1,6 +1,4 @@
-const lBars1 = document.querySelector('.line1__bars-menu');
-const lBars2 = document.querySelector('.line2__bars-menu');
-const lBars3 = document.querySelector('.line3__bars-menu');
+
 const listBars = document.querySelector('.list_bar-menu');
 const bMenu = document.querySelector('#bmenu');
 const xMenu = document.querySelector('.xmenu');
