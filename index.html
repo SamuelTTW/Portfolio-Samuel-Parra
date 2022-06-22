@@ -14,32 +14,53 @@
     
 </head>
 
-<body>
+<body class="popup-window">
 
  
-    <header>
+    <header class="Mheader">
       <!-- MOBILE-&-TABLET-VERSION -->
-      <a href="">Welcome</a>
+      <a class="welcome" href="">Welcome</a>
         <nav class="h-mobile">
-           <button id="bmenu" type="button"><span class="material-symbols-outlined"> menu </span></button>
+           <button id="bmenu" class="show" type="button">
+            <span class="line1__bars-menu"></span>
+            <span class="line2__bars-menu"></span>
+            <span class="line3__bars-menu"></span>
+          </button>
         </nav>
-
+ 
         <!-- PC-VERSION -->
         <nav class="h-desktop" >
           <ul>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="#main-container">Portfolio</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about-me">About</a>
             </li>
             <li>
-              <a href="#">contact</a>
+              <a href="#footer">contact</a>
             </li>
           </ul>
         </nav>
     </header>
-
+    <div class="cross">
+    <button class="xmenu" type="button">
+      <span><img src="/img/cross.svg" alt=""></span>
+    </button>
+  </div>
+    <div class="list_bar-menu">
+      <ul>
+        <li>
+          <a class="a0" href="#main-container">Portfolio</a>
+        </li>
+        <li>
+          <a class="a1" href="#about-me">About</a>
+        </li>
+        <li>
+          <a class="a2" href="#footer">contact</a>
+        </li>
+      </ul>
+    </div>
 
     <div id="main-container">
 
@@ -81,6 +102,7 @@
                 </section>
 
         <section class="work-section">
+          
           
                   <div class="card">
                     <div class="img"></div>
@@ -219,7 +241,7 @@
           </section>
 
 
-            <section class="about-me">
+            <section id="about-me" class="about-me">
 
               <div class="backaboutone"><img src="./img/background-1-about-me.svg" alt=""></div>
               <div class="backaboutone-desktop"><img src="./img-desktop/about-me-1-desktop.svg" alt=""></div>
@@ -318,7 +340,7 @@
            
             </div>
 
-            <footer>
+            <footer id="footer">
 
               <section class="formulary">
                 <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
@@ -370,6 +392,6 @@
                 <p>espaitk@gmail.com</p>
     
           </footer>
-
+<script src="/js/main.js"></script>
      </body>
 </html>
