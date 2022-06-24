@@ -34,20 +34,16 @@ body {
   margin: 0 0 -3px 5px;
 }
 
-
-.none {
-  display: none;
-}
 .popup__insert.active {
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100vh;
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
-  left:0;
-  opacity:1;
+  left: 0;
+  opacity: 1;
   pointer-events: all;
   transition: all 1s;
 }
@@ -64,22 +60,21 @@ body {
 
 #close1 {
   position: absolute;
- left: 267px;
- padding: 13px 0 0 0;
- color: rgb(255, 255, 255);
+  left: 267px;
+  padding: 13px 0 0 0;
+  color: rgb(255, 255, 255);
 }
 
 #close1 span {
   color: rgb(255, 255, 255);
   margin-top: 23px;
   margin-left: 4px;
- }
- 
+}
 
-.popup__window.active{
+.popup__window.active {
   border-radius: 20px;
-  background-color:rgb(255, 255, 255);
-  width:350px;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
   height: 700px;
   padding: 10px 20px;
   margin: 20px auto 200px auto;
@@ -87,11 +82,17 @@ body {
   overflow-x: hidden;
 }
 
-
-
 .popup__window h3 {
   font-size: 32px;
   color: #172b4d;
+}
+
+footer p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -80px;
+  color: #42526e;
 }
 
 .popup__window p {
@@ -101,10 +102,6 @@ body {
 
 .img__card {
   position: relative;
-}
-
-.img__card img {
-  /* display: flex; */
 }
 
 .popup__window ul {
@@ -220,7 +217,7 @@ header #bmenu .activeline3__bars-menu {
   background-color: transparent;
   cursor: pointer;
   padding: 20px 20px 0 0;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .xmenu img {
@@ -288,14 +285,6 @@ header #bmenu .activeline3__bars-menu {
   color: #36b37e;
   font-weight: 700;
   margin: 10px 45px 56px 45px;
-}
-
-footer p {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 30px;
-  margin-top: -80px;
-  color: #42526e;
 }
 
 #main-container .introduction p {
@@ -416,7 +405,6 @@ footer .social-button .social-t .fa-brands:hover {
 
 #main-container .work-section .card {
   display: flex;
- 
   flex-direction: column;
   background-color: white;
   width: 331px;
@@ -746,8 +734,6 @@ footer .formulary form {
     padding: 0 100px;
     font-size: 48px;
   }
-
-  
 }
 
 /* PC-VERSION */
@@ -832,6 +818,14 @@ footer .formulary form {
 
   #main-container .down-button {
     margin-top: 100px;
+  }
+
+  .popup__button1 img {
+    margin-left: 5px;
+  }
+
+  .popup__button2 img {
+    margin-left: 5px;
   }
 
   footer .one img {
@@ -960,9 +954,9 @@ footer .formulary form {
     display: none;
   }
 
-  .popup__window.active{
+  .popup__window.active {
     border-radius: 20px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     width: 920px;
     height: 90vh;
     padding: 10px 20px;
@@ -980,54 +974,46 @@ footer .formulary form {
     position: relative;
     justify-content: right;
     padding: 13px 0 0 0;
-    justify-content: right;
-    margin: 0 0 0 360px ;
+    margin: 0 0 0 360px;
   }
 
   #close1 span {
-    color: #67798E;
+    color: #67798e;
     margin-left: 200px;
     border-radius: 8px;
-    background-color: #EBECF0;
+    background-color: #ebecf0;
     padding: 10px;
   }
 
   .popup__button1 {
-  cursor: pointer;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: none;
-  background-color: #36b37f;
-  color: white;
-  padding: 12px;
-  margin: 20px 5px 30px 0;
-  border-radius: 4px;
-  transition-duration: 0.1s;
-  width: 115px;
-  height: 48px;
-}
-.popup__button1 img {
-  margin-left: 5px;
-}
+    cursor: pointer;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: #36b37f;
+    color: white;
+    padding: 12px;
+    margin: 20px 5px 30px 0;
+    border-radius: 4px;
+    transition-duration: 0.1s;
+    width: 115px;
+    height: 48px;
+  }
 
-.popup__button2 img {
-  margin-left: 5px;
-}
+  .popup__button2 {
+    cursor: pointer;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: #36b37f;
+    color: white;
+    padding: 12px;
+    margin: 20px 5px 30px 0;
+    border-radius: 4px;
+    transition-duration: 0.1s;
+    width: 141px;
+    height: 48px;
+  }
 
-.popup__button2 {
-  cursor: pointer;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  border: none;
-  background-color: #36b37f;
-  color: white;
-  padding: 12px;
-  margin: 20px 5px 30px 0;
-  border-radius: 4px;
-  transition-duration: 0.1s;
-  width: 141px;
-  height: 48px;
-}
-
-.hb {
-  display: flex;
-}
+  .hb {
+    display: flex;
+  }
 }
