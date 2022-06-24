@@ -12,9 +12,126 @@ body {
   overflow-x: hidden;
 }
 
+.popup__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.popup__button1 {
+  cursor: pointer;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #36b37f;
+  color: white;
+  padding: 12px;
+  margin: 0 5px 30px 0;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+  width: 200px;
+}
+
+.popup__button1 img {
+  margin: 0 0 -3px 5px;
+}
+
+.popup__insert.active {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  pointer-events: all;
+  transition: all 1s;
+}
+
+.popimg {
+  margin-top: 20px;
+  width: 311px;
+}
+
+.popup__window {
+  display: flex;
+  flex-direction: column;
+}
+
+#close1 {
+  position: absolute;
+  left: 267px;
+  padding: 13px 0 0 0;
+  color: rgb(255, 255, 255);
+}
+
+#close1 span {
+  color: rgb(255, 255, 255);
+  margin-top: 23px;
+  margin-left: 4px;
+}
+
+.popup__window.active {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 700px;
+  padding: 10px 20px;
+  margin: 20px auto 200px auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.popup__window h3 {
+  font-size: 32px;
+  color: #172b4d;
+}
+
+footer p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -80px;
+  color: #42526e;
+}
+
+.popup__window p {
+  font-size: 16px;
+  color: #344563;
+}
+
+.img__card {
+  position: relative;
+}
+
+.popup__window ul {
+  display: flex;
+  margin-top: 10px;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.popup__window li {
+  background: #ebf0ee;
+  color: #3a4a42;
+  font-family: 'Inter', Times, serif;
+  border-radius: 4px;
+  margin: 0 5px 0 5px;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 600;
+  width: 103px;
+  padding: 8px 0 8px 0;
+}
+
 .popup-show {
   overflow: hidden;
 }
+
+/* .active{
+  overflow: hidden;
+} */
 
 /* HEADER-MOBILE */
 header {
@@ -100,6 +217,7 @@ header #bmenu .activeline3__bars-menu {
   background-color: transparent;
   cursor: pointer;
   padding: 20px 20px 0 0;
+  transition: all 0.3s;
 }
 
 .xmenu img {
@@ -167,14 +285,6 @@ header #bmenu .activeline3__bars-menu {
   color: #36b37e;
   font-weight: 700;
   margin: 10px 45px 56px 45px;
-}
-
-footer p {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 30px;
-  margin-top: -80px;
-  color: #42526e;
 }
 
 #main-container .introduction p {
@@ -295,7 +405,6 @@ footer .social-button .social-t .fa-brands:hover {
 
 #main-container .work-section .card {
   display: flex;
-  position: relative;
   flex-direction: column;
   background-color: white;
   width: 331px;
@@ -690,7 +799,6 @@ footer .formulary form {
 
   header .h-desktop ul li a {
     display: block;
-    position: relative;
     color: rgb(52 69 99);
     margin: 0;
     font-size: 20px;
@@ -710,6 +818,14 @@ footer .formulary form {
 
   #main-container .down-button {
     margin-top: 100px;
+  }
+
+  .popup__button1 img {
+    margin-left: 5px;
+  }
+
+  .popup__button2 img {
+    margin-left: 5px;
   }
 
   footer .one img {
@@ -836,5 +952,68 @@ footer .formulary form {
 
   .list_bar-menu {
     display: none;
+  }
+
+  .popup__window.active {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 920px;
+    height: 90vh;
+    padding: 10px 20px;
+    margin: 20px auto 200px auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .popimg {
+    width: 872px;
+    height: 616px;
+  }
+
+  #close1 {
+    position: relative;
+    justify-content: right;
+    padding: 13px 0 0 0;
+    margin: 0 0 0 360px;
+  }
+
+  #close1 span {
+    color: #67798e;
+    margin-left: 200px;
+    border-radius: 8px;
+    background-color: #ebecf0;
+    padding: 10px;
+  }
+
+  .popup__button1 {
+    cursor: pointer;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: #36b37f;
+    color: white;
+    padding: 12px;
+    margin: 20px 5px 30px 0;
+    border-radius: 4px;
+    transition-duration: 0.1s;
+    width: 115px;
+    height: 48px;
+  }
+
+  .popup__button2 {
+    cursor: pointer;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: #36b37f;
+    color: white;
+    padding: 12px;
+    margin: 20px 5px 30px 0;
+    border-radius: 4px;
+    transition-duration: 0.1s;
+    width: 141px;
+    height: 48px;
+  }
+
+  .hb {
+    display: flex;
   }
 }
