@@ -15,4 +15,4 @@ document.querySelector('#bmenu').addEventListener('click', Hamburger);
 document.querySelector('.xmenu').addEventListener('click', Hamburger);
 document.querySelector('.a0').addEventListener('click', Hamburger);
 document.querySelector('.a1').addEventListener('click', Hamburger);
-document.querySelector('.a2').addEventListener('click', Hamburger );
+document.querySelector('.a2').addEventListener('click', Hamburger);
