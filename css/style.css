@@ -12,9 +12,64 @@ body {
   overflow-x: hidden;
 }
 
+
+.none {
+  display: none;
+}
+.popup__insert.active {
+  background-color: rgba(0,0,0,.8);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  opacity:1;
+  pointer-events: all;
+  transition: all 1s;
+}
+
+.popup__window.active{
+  border-radius: 20px;
+  background-color:rgb(255, 255, 255);
+  width:300px;
+  height: 70vh;
+  padding: 0 20px;
+  margin: 10% auto 0 auto;
+}
+
+.popup__window h3 {
+  font-size: 32px;
+  color: #172b4d;
+} 
+
+.popup__window ul {
+  display: flex;
+  margin-top: 10px;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+ 
+}
+.popup__window li {
+  background: #ebf0ee;
+  color: #3a4a42;
+  font-family: 'Inter', Times, serif;
+  border-radius: 4px;
+  margin: 0 5px 0 5px;
+  flex-direction: row;
+  font-size: 12px;
+  padding: 5px;
+}
+
 .popup-show {
   overflow: hidden;
 }
+
+/* .active{
+  overflow: hidden;
+} */
 
 /* HEADER-MOBILE */
 header {
@@ -100,6 +155,7 @@ header #bmenu .activeline3__bars-menu {
   background-color: transparent;
   cursor: pointer;
   padding: 20px 20px 0 0;
+  transition: all .3s;
 }
 
 .xmenu img {
@@ -295,7 +351,7 @@ footer .social-button .social-t .fa-brands:hover {
 
 #main-container .work-section .card {
   display: flex;
-  position: relative;
+ 
   flex-direction: column;
   background-color: white;
   width: 331px;
@@ -690,7 +746,6 @@ footer .formulary form {
 
   header .h-desktop ul li a {
     display: block;
-    position: relative;
     color: rgb(52 69 99);
     margin: 0;
     font-size: 20px;
