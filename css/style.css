@@ -177,8 +177,8 @@ header .h-desktop {
 }
 
 .field1 {
-  border: #ff0000 1px solid !important;
-} 
+  border: #f00 1px solid !important;
+}
 
 header a {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
