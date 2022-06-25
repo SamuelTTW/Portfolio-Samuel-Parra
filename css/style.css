@@ -162,6 +162,50 @@ header .h-desktop {
   margin: 70px 40px 10px 40px;
 }
 
+.pemail {
+  display: none;
+}
+
+.lowercase {
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+  color: red;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.pbutton {
+  display: none;
+}
+
+.pbuttonNo {
+  display: none;
+}
+
+.nosend {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto 30px auto;
+  justify-content: center;
+  display: flex;
+  color: rgb(255, 0, 0);
+}
+
+.send {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto 30px auto;
+  justify-content: center;
+  display: flex;
+  color: green;
+}
+
+.field1 {
+  border: #f00 1px solid !important;
+}
+
 header a {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -705,7 +749,7 @@ footer .formulary form .field-t {
   width: 80%;
   height: 114px;
   border-radius: 4px;
-  resize: nose;
+  resize: none;
 }
 
 footer .formulary .last-icon {
@@ -1015,5 +1059,19 @@ footer .formulary form {
 
   .hb {
     display: flex;
+  }
+
+  .lowercase {
+    justify-content: left;
+    text-align: left;
+    padding: 10px 10px 10px 0;
+  }
+
+  .send {
+    justify-content: left;
+  }
+
+  .nosend {
+    justify-content: left;
   }
 }
