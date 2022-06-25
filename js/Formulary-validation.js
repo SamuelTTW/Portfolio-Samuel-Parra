@@ -6,11 +6,10 @@ const expre = {
 };
 
 const red = () => {
-  if(expre.regexemail.test(emailInput.value)){
+  if (expre.regexemail.test(emailInput.value)) {
     emailInput.classList.remove('field1');
     pemail.classList.remove('lowercase');
-  }
-  else {
+  } else {
     emailInput.classList.add('field1');
     pemail.classList.add('lowercase');
   }
