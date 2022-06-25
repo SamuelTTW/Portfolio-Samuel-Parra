@@ -180,6 +180,19 @@ header .h-desktop {
   display: none;
 }
 
+.pbuttonNo {
+  display: none;
+}
+
+.nosend {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto 30px auto;
+  justify-content: center;
+  display: flex;
+  color: rgb(255, 0, 0);
+}
+
 .send {
   font-size: 20px;
   font-weight: bold;
@@ -1055,6 +1068,10 @@ footer .formulary form {
   }
 
   .send {
+    justify-content: left;
+  }
+
+  .nosend {
     justify-content: left;
   }
 }
