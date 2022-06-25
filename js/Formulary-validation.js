@@ -6,11 +6,9 @@ const expre = {
   regexemail: /^[a-z0-9_.+-]+@[a-z0-9-]+\.[a-z0-9-.]+$/,
 };
 
-let lowercaseEmail = true
-
+let lowercaseEmail = true;
 
 const red = () => {
-
   if (expre.regexemail.test(emailInput.value)) {
     emailInput.classList.remove('field1');
     pemail.classList.remove('lowercase');
@@ -26,16 +24,12 @@ emailInput.addEventListener('keyup', red);
 emailInput.addEventListener('blur', red);
 
 formulary.addEventListener('submit', (e) => {
-
   if (lowercaseEmail) {
     send.classList.add('send');
     setTimeout(() => {
       send.classList.remove('send');
     }, 5000);
-  }
-  else {
+  } else {
     e.preventDefault();
   }
 });
-
-
