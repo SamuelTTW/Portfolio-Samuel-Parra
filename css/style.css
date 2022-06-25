@@ -176,6 +176,19 @@ header .h-desktop {
   padding: 10px 10px 10px 10px;
 }
 
+.pbutton {
+  display: none;
+}
+
+.send {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto 30px auto;
+  justify-content: center;
+  display: flex;
+  color: green;
+}
+
 .field1 {
   border: #f00 1px solid !important;
 }
@@ -1039,5 +1052,8 @@ footer .formulary form {
     justify-content: left;
     text-align: left;
     padding: 10px 10px 10px 0;
+  }
+  .send {
+    justify-content: left;
   }
 }
